@@ -1,0 +1,102 @@
+    
+ .home__bg{
+ background-image: url(https://images.unsplash.com/photo-1571201230002-8243ee4dab44?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=741&q=80);
+ height: 92vh;
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ overflow: hidden;
+       
+}
+div.colo.row{
+    width: 100%;
+}
+
+.home-message-icon{
+    margin-left: 10px;
+    display: inline-block;
+}
+.get-started{
+    animation-name: started;
+    animation-duration: 20s;
+    /* animation: started infinite linear; */
+    box-shadow: 0px 0px 5px 1px rgb(25, 255, 4);
+}
+@keyframes started {
+    0%{
+        background-color: rgb(12, 173, 173);
+    }
+    30%{
+        background-color: rgb(255, 0, 255);
+    }
+    50%{
+        background-color: rgb(174, 0, 255);
+    }
+    70%{
+        background-color: rgb(7, 182, 80);
+    }
+    120%{
+        background-color: orangered;
+    }
+}
+
+
+.box-home{
+    /* width: 100%; */
+    /* margin-left: 3px; */
+}
+
+.colo{
+    background-color: rgb(255, 255, 255);
+}
+
+.top{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+
+.contain{
+    background-color: rgb(0, 0, 0);
+    
+}
+
+.top .card {
+        background-color: rgb(37, 39, 39);
+        color: white;
+        padding: 10px;
+        margin: 5px;
+}
+    
+.carousel{
+    padding: 50px;
+}
+.back{
+    background-color: rgb(37, 39, 39);
+
+}
+ .contai .par p{
+    color: aliceblue;
+    align-items: center;
+}
+.back-me{
+    background-image: url(https://images.unsplash.com/photo-1571201230002-8243ee4dab44?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=741&q=80);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* #container {
+    background: #000;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+  } */
+
+  .picture{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    gap: 3rem;
+    /* margin-left: 120px; */
+    margin-top: 20px;
+}
