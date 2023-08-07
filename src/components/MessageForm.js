@@ -6,6 +6,7 @@ import "./MessageForm.css";
 function MessageForm() {
     const [message, setMessage] = useState("");
     const user = useSelector((state) => state.user);
+
     const { socket, currentRoom, setMessages, messages, privateMemberMsg } = useContext(AppContext);
     const messageEndRef = useRef(null);
     useEffect(() => {
