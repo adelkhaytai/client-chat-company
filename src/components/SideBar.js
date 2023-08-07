@@ -42,7 +42,7 @@ function Sidebar() {
     });
 
     function getRooms() {
-        fetch("https://server-chat-company.onrender.com/rooms")
+        fetch("https://client-chat-company.onrender.com/rooms")
             .then((res) => res.json())
             .then((data) => setRooms(data));
     }
